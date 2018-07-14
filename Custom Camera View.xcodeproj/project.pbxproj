@@ -14,6 +14,7 @@
 		89115F6D20F8D66C0056494F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89115F6B20F8D66C0056494F /* LaunchScreen.storyboard */; };
 		89115F7820F8D66D0056494F /* Custom_Camera_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89115F7720F8D66D0056494F /* Custom_Camera_ViewTests.swift */; };
 		89115F8320F8D66D0056494F /* Custom_Camera_ViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89115F8220F8D66D0056494F /* Custom_Camera_ViewUITests.swift */; };
+		89115F9320FA28C50056494F /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89115F9220FA28C50056494F /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		89115F7E20F8D66D0056494F /* Custom Camera ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Custom Camera ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89115F8220F8D66D0056494F /* Custom_Camera_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_Camera_ViewUITests.swift; sourceTree = "<group>"; };
 		89115F8420F8D66D0056494F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89115F9220FA28C50056494F /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				89115F6220F8D6690056494F /* AppDelegate.swift */,
 				89115F6420F8D6690056494F /* ViewController.swift */,
+				89115F9220FA28C50056494F /* PhotoViewController.swift */,
 				89115F6620F8D6690056494F /* Main.storyboard */,
 				89115F6920F8D66C0056494F /* Assets.xcassets */,
 				89115F6B20F8D66C0056494F /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				89115F6520F8D6690056494F /* ViewController.swift in Sources */,
 				89115F6320F8D6690056494F /* AppDelegate.swift in Sources */,
+				89115F9320FA28C50056494F /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +435,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H28X75MLUY;
 				INFOPLIST_FILE = "Custom Camera View/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,7 +454,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H28X75MLUY;
 				INFOPLIST_FILE = "Custom Camera View/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
